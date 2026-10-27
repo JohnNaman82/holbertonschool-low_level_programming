@@ -3,7 +3,7 @@
 int main(void)
 {
 	// Affiche la taille d'un char en octets.
-	prinf("Size of a char: %zu byte(s)\n", sizeof(char));
+	printf("Size of a char: %zu byte(s)\n", sizeof(char));
 
 	// Afficche la taille d'un int en octets.
 	printf("Size of an int: %zu byte(s)\n", sizeof(int));
