@@ -12,7 +12,7 @@ int main(void)
 	printf("Size of a long int: %zu byte(e)\n", sizeof(long int));
 
 	// Affiche la taille d'un long long int en octets.
-	printf("Size of a long long inr: %zu byte(e)\n", sizeof(long long int));
+	printf("Size of a long long int: %zu byte(e)\n", sizeof(long long int));
 
 	// Affiche la taille d'un float en octets.
 	printf("Size of a float: %zu byte(e)\n", sizeof(float));
