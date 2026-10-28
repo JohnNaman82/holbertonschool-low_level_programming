@@ -1,11 +1,8 @@
 #include <stdio.h>
-#include <stdlib.h>
-#include <time.h>
-
 /**
- * File: 9-print_comb.c
- * Description: Prints all single-digit numbers in ascending order,
- * separated by a comma followed by a space.
+ * main - Prints all single digit numbers in ascending order.
+ *
+ * Return: Always 0
  */
 int main(void)
 {
