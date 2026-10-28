@@ -3,8 +3,7 @@
 #include <time.h>
 
 /**
- * main - Prints the lowercase alphabet in reverse,
- * followed by new line.
+ * main - Prints numbers of base 16 in lowercase.
  *
  * Return: Always 0
  */
