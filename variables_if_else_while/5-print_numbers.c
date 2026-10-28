@@ -3,19 +3,17 @@
 #include <time.h>
 
 /**
- * main - Prints the lowercase alphabet except 'e' and 'q',
- * followed by a new line.
+ * main - Prints all single digit numbers of base 10.
  *
  * Return: Always 0 (Success)
  */
 int main(void)
 {
-	char letter;
+	int digit;
 
-	for (letter = 'a'; letter <= 'z'; letter++)
+	for (digit = 0; digit < 10; digit++)
 	{
-		if (letter != 'e' && letter != 'q')
-			putchar(letter);
+		putchar(digit + '0');
 	}
 	putchar('\n');
 
