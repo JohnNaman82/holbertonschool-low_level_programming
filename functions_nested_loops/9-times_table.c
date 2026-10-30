@@ -5,7 +5,7 @@
  *
  * Return: Nothing
  */
-void print_9_times_table(void)
+void times_table(void)
 {
 	int i, j, result;
 
